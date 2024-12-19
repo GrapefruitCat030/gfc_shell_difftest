@@ -1,0 +1,15 @@
+Fish 判断语句的语法如下：
+
+- 使用 `if` 关键字开始判断语句。
+- 使用 `test` 命令作为条件测试的语法，例如 `if test condition`。
+- 使用 `; and` 或 `; or` 表示逻辑与或逻辑或。
+- 使用 `end` 关键字结束判断语句。
+
+示例：
+```fish
+if test "$VAR" = "Hello, World!"
+    echo "Condition met: $VAR"
+else
+    echo "Condition not met"
+end
+```

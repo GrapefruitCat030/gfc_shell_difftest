@@ -1,0 +1,15 @@
+Bash 判断语句的语法如下：
+
+- 使用 `if` 关键字开始判断语句。
+- 使用 `[[` 和 `]]` 作为条件测试的语法，例如 `[[ condition ]]`。
+- 使用 `then` 关键字表示条件为真时要执行的代码块。
+- 使用 `else` 关键字表示条件为假时要执行的代码块。
+- 使用 `fi` 关键字结束判断语句。
+
+示例：
+```sh
+if [[ "$VAR" == "Hello, World!" ]]; then
+    echo "Condition met: $VAR"
+else
+    echo "Condition not met"
+```
